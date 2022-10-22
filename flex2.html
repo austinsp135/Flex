@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .flex-container{
+            display:flex;
+            color:white;
+            font-size: 100px;
+            
+        }
+        .a{
+            display:flex;
+            justify-content: center;
+            padding:50px;
+        }
+        header{
+            color:white;
+            background-color: rgb(92, 92, 180);
+            padding-left: 10px;
+            padding-top:20px;
+            padding-bottom:20px;
+            font-size: 30px;
+        }
+        footer{
+            background-color:rgb(0, 146, 213);
+            font-size:20px;
+            color:white;
+            padding-top: 20px;
+            padding-bottom:20px;
+        }
+        .con{
+            font-size: 30px;
+            background-color: rgb(54, 54, 172);
+            display:flex;
+            margin:20px;
+            padding:20px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Experitube
+    </header>
+    <div class="flex-container">
+        <div class="a" style="flex-grow:5;background-color: aquamarine;">
+            <div>
+                <div class="con">Content</div>
+                <div class="con">Content</div>
+                
+            </div>
+            <div>
+                <div class="con">Content</div>
+                <div class="con">Content</div>
+                
+            </div>
+            <div>
+                <div class="con">Content</div>
+                <div class="con">Content</div>
+            </div>
+            
+            
+        
+        </div>
+        <div class="a" style="flex-grow:1;background-color: rgb(222, 130, 25);" >ASIDE</div>
+
+    </div>
+    <footer>
+        <center>Footer</center>
+    </footer>
+</body>
+</html>
